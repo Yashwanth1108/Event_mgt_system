@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Music Concert",
+      "description": "An evening of live music performances.",
+      "category": "Music",
+      "date": "2024-12-15",
+      "availableSeats": 50,
+      "price": 20.0
+    },
+    {
+      "id": 2,
+      "title": "Art Exhibition",
+      "description": "A showcase of modern art from various artists.",
+      "category": "Art",
+      "date": "2024-11-20",
+      "availableSeats": 30,
+      "price": 15.0
+    },
+    {
+      "id": 3,
+      "title": "Tech Conference",
+      "description": "Annual conference for tech enthusiasts.",
+      "category": "Technology",
+      "date": "2024-12-01",
+      "availableSeats": 100,
+      "price": 50.0
+    },
+    {
+      "id": 4,
+      "title": "Food Festival",
+      "description": "Enjoy a variety of foods from around the world.",
+      "category": "Food",
+      "date": "2024-11-25",
+      "availableSeats": 75,
+      "price": 10.0
+    },
+    {
+      "id": 5,
+      "title": "Movie Screening",
+      "description": "A special screening of classic films.",
+      "category": "Film",
+      "date": "2024-12-10",
+      "availableSeats": 40,
+      "price": 12.0
+    }
+  ]
+}

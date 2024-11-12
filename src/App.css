@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+
+.form {
+    height: 300px;
+    width: 400px;
+    border: solid 1px black;
+    border-radius: 50px;
+    display: block;
+    margin: 5vh auto;
+}
+
+.form input {
+    display: block;
+    margin: auto;
+    height: 6vh;
+    width: 80%;
+    margin-top: 5vh;
+    padding: 5px 5px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.form button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin: 2vh auto;
+
+}
+
+.form button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+select {
+    padding: 8px 12px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+p[style*="color: red"] {
+    color: red;
+    font-weight: bold;
+}
+
+div button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+span {
+    font-size: 16px;
+    color: #333;
+}
+
+.box {
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  
+  .event-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .event-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-item h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .event-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    .event-list {
+      grid-template-columns: 1fr; 
+    }
+  
+    .event-item {
+      padding: 10px;
+    }
+  
+    .filter-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filter-container select {
+      margin-top: 10px;
+    }
+  
+    .pagination {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .pagination button {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .event-item h2 {
+      font-size: 1.2rem;
+    }
+  
+    .event-item p {
+      font-size: 0.9rem;
+    }
+  
+    .pagination button {
+      font-size: 0.8rem;
+    }
+  }
+  
